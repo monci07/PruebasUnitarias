@@ -14,7 +14,7 @@ public class test {
 
         System.out.println("Escribe operador 1: "); double ope1=entrada.nextDouble();
         System.out.println("Escribe operador 2: "); double ope2=entrada.nextDouble();
-//holi
+
         c.setOperacion(Operaciones.valueOf(operacion));
         System.out.println(c.resultado(ope1,ope2));
     }
